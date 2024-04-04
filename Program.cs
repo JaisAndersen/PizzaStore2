@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Store store = new Store();
+            store.Start();
+            store.Menu();
+
             Console.ReadKey();
         }
     }
